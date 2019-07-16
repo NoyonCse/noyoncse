@@ -1,0 +1,449 @@
+body, html{
+	margin-top: -1px;
+	margin-left: -1px;
+	width: 100%
+}
+a{
+	font-size: 0.45cm;
+	color: green;
+	text-decoration: none;
+}
+body{
+	background-color: #fff;
+	background-size: cover;
+	padding-bottom: 500px;
+	}
+#bg{
+	position: absolute;
+	float: left;
+}
+#logo{
+	position: absolute;
+	float: left;
+	z-index: 1;
+}
+
+#container{
+	margin-top: -15px;
+	position: absolute;
+	text-align: center;
+	width: 99%;
+	margin: 0px auto;
+	z-index: 1;
+	color: orange;
+	float: left;
+	
+	
+}
+
+h2{
+	z-index: 1;
+	font-family: 'roboto',sans-serif;
+	width: 70%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(59), blink 1s infinite;
+}
+@keyframes typing
+{
+	0%
+	{
+		width: 0px;
+	}
+}
+@keyframes blink
+{
+	0%
+	{
+		border-color: transparent;
+	}
+}
+#nav{
+	z-index: 1;
+	float: right;
+	
+	
+}
+#nav ul{
+	padding: 0px;
+	margin: 0px;
+    list-style: none;
+	float: right;
+}
+#nav ul li{
+	float: right;
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	margin: 2px;
+	z-index: 1;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#nav ul li a:hover{
+	background-color: green;
+	color: blue;
+}
+#nav ul li ul li{
+	display: none;
+}
+#nav ul li:hover ul li{
+	display: block;
+}
+#gif{
+	margin-top: 50px;
+	position: absolute;
+}
+h1{
+	margin-top: 100px;
+	margin-bottom: 120px;
+	font-size: 2cm;
+}
+#notic{
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(224, 15, 162);
+}
+#menu{
+	background-color: #fff;
+	border: groove;
+	width: 100%;
+	height: 40px;
+	z-index: 1;
+}
+#menu ul{
+	height: 40px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+    list-style: none;
+	float: left;
+}
+#menu ul li{
+	float: left;
+	width: 25%;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu ul li a:hover{
+	background-color: green;
+	color: blue;
+}
+#menu ul li ul li{
+	display: none;
+}
+#menu ul li:hover ul li{
+
+	display: block;
+}
+
+
+#frame{
+	background-color: #fff;
+	display: inline;
+	height: 20%;
+	width: 13%;
+	border: groove;
+	list-style-type: none;
+	float:right;
+	margin-left: -5px;
+}
+#frame1{
+	display: inline;
+	height: 20%;
+	width: 16%;
+	border: groove;
+	list-style-type: none;
+	float:right;
+	margin-left: -5px;
+}
+#frame:hover{
+	background-color: green;
+	color: blue;
+}
+#frame1:hover{
+	background-color: green;
+	color: blue;
+}
+#content{
+	height: 20px;
+	width: 100%;
+	
+}
+#table{
+	width: 100%;
+	border: groove;
+	border-color: green;
+	background-color: orange;
+	text-align: center;
+
+}
+#row:hover{
+	color: yellow;
+	background-color: green;
+}
+#row{
+	background-color: red;
+	border: groove;
+	width: 100%;
+	height: 40px;
+}
+#row1{
+	width: 100%;
+	height: 40px;
+}
+
+#sat{
+	background-color: yellow;
+}
+#sat:hover{
+	color: yellow;
+	background-color: green;
+}
+#sun{
+	background-color: blue;
+}
+#sun:hover{
+	color: yellow;
+	background-color: green;
+}
+#mon{
+	background-color: orange;
+}
+#mon:hover{
+	color: yellow;
+	background-color: green;
+}
+#tue{
+	background-color: magenta;
+}
+#tue:hover{
+	color: yellow;
+	background-color: green;
+}
+#wed{
+	background-color: cyan;
+}
+#wed:hover{
+	color: yellow;
+	background-color: green;
+}
+#thu{
+	background-color: #cc6;
+}
+#thu:hover{
+	color: yellow;
+	background-color: green;
+}
+
+#left{
+	background-color: #fff;
+	font-size: .5cm;
+	border: groove;
+	list-style: none;
+	float: left;
+	width: 20%;
+
+}
+#left ul{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+    list-style: none;
+	float: left;
+}
+#left ul li{
+	margin: 2px;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+}
+#left ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#left ul li a:hover{
+	background-color: green;
+	color: blue;
+}
+#left ul li ul li{
+	display: none;
+}
+#left ul li:hover ul li{
+
+	display: block;
+}
+#main{
+	text-align: center;
+	color: black;
+	width: 70%;
+	float: right;
+	margin-top: 0px;
+	margin-right: 4.2%
+}
+#maincenter{
+	text-align: center;
+	color: black;
+	width: 56%;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0%
+}
+#mainright{
+	border: groove;
+	background-color: rgb(71, 196, 92);
+	opacity: .8;
+	text-align: center;
+	color: black;
+	width: 20%;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0%
+}
+.header{
+	border: groove;
+	background-color: rgb(8, 28, 211);
+}
+
+#leftimg{
+	margin: 10px;
+	height: 100%;
+	width: 40%;
+	float: left;
+	
+}
+#centerimg{
+	margin: 10px;
+	height: 50%;
+	width: 40%;
+	float: right;
+	border: groove;
+	background-color: black;
+	opacity: .8;
+	color: white;
+}
+#rightimg{
+	margin: 10px;
+	height: 100%;
+	width: 40%;
+	float: left;	
+}
+
+#Contact{
+	background-color: yellow;
+	height: 20px;
+	color: red;
+	border: groove;
+	clear: both;	
+}
+#Contact:hover{
+	background-color: green;
+	color: blue;
+}
+table {
+    counter-reset: tableCount;    
+}
+.counterCell:before {             
+    content: counter(tableCount); 
+    counter-increment: tableCount; 
+    
+}
+#tablestyle{
+    width: 95%;
+    float: center;
+}
+#tablestyle tr{
+    height: 40px;
+}
+
+#serial{
+    text-align: right;
+    background-color: rgb(160, 224, 154);
+}
+#serial:hover{
+    text-align: right;
+    background-color: rgb(190, 56, 123);
+}
+#roll{
+    text-align: center;
+    background-color: rgb(204, 138, 15);
+}
+#roll:hover{
+    text-align: center;
+    background-color: rgb(15, 204, 116);
+}
+#name{
+    text-align: left;
+    background-color: rgb(174, 238, 165);
+}
+#name:hover{
+    text-align: left;
+    background-color: rgb(150, 40, 104);
+}
+#nam{
+    text-align: center;
+    background-color: rgb(218, 85, 8);
+}
+#nam:hover{
+    text-align: center;
+    background-color: rgb(27, 180, 21);
+}
+#phone{
+    text-align: right;
+    background-color: rgb(31, 185, 17);
+}
+#phone:hover{
+    text-align: right;
+    background-color: rgb(199, 144, 26);
+}
+#email{
+    text-align: left;
+    background-color: rgb(202, 36, 218);
+}
+#email:hover{
+    text-align: left;
+    background-color: rgb(36, 63, 218);
+}
+#status{
+    text-align: center;
+    background-color: rgb(44, 58, 184);
+}
+#status:hover{
+    text-align: center;
+    background-color: rgb(184, 44, 114);
+}
+
+#footer{
+	background-color: yellow;
+	height: 20px;
+	color: red;
+	border: groove;
+	clear: both;
+	
+}
+#footer:hover{
+	background-color: green;
+	color: blue;
+}

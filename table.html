@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="table.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+  <div><h1 id="ti"><span>University of Rajshahi</span></h1></div>
+  
+  <slider>
+    <slide><p>slide1</p></slide>
+    <slide><p>slide2</p></slide>
+    <slide><p>slide3</p></slide>
+    <slide><p>slide4</p></slide>
+
+  </slider>
+    <div id="container">       
+          <img class="slides" src="images/6.jpg">
+          <img class="slides" src="images/9.jpg">
+          <img class="slides" src="images/7.jpg">
+          <img class="slides" src="images/6.jpg">
+          <img class="slides" src="images/5.jpg"> 
+          <button class="btn" onclick="plusIndex(-1)" id="btn1"&#10094><</button>
+          <button class="btn" onclick="plusIndex(1)" id="btn2" &#10095>></button>
+            <div id="menuber">
+
+        
+
+        </div>
+       
+
+    </div>
+
+</body>
+<script>
+  var index =1;
+
+  function plusIndex(n) {
+    index =index + n;
+    showImages(index);
+    
+  }
+
+  showImages(1);
+
+  function showImages(n) {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    if (n > x.length) {index = 1};
+    if (n < 1) {index = x.length};
+    for(i=0;i<x.length;i++)
+        {
+           x[i].style.display="none";
+        }
+    x[index-1].style.display="block";   
+  }
+  autoSlide();
+  function autoSlide() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    if (index > x.length) { index = 1 };
+    x[index - 1].style.display = "block"; 
+    index++;  
+    setTimeout(autoSlide,2000);
+  }
+
+</script>
+</html>
